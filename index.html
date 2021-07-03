@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" language="JavaScript"></script>
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#project" onclick="toggleMenu();">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBox">
+            <h2>Hello I'm <br><span>Abhinav Maurya</span></h2>
+            <h3>I'm a frontend Web developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="img/Profile Image.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i ?</h3>
+                <h2>I'm <b>Abhinav Maurya</b>, a Frontend web developer</h2>
+                <p>I Enjoy designing website and I'm always looking ahead to 
+                    learn something new each and every day. I also love to collaborate
+                    with the new developers.</p><br>
+                <p>I'm a BScIT graduate from Mumbai University and i have been building
+                    website by HTML/CSS/Bootstrap/JavaScript for a year, which comply 
+                    with the latest design trends.</p>
+                <div class="heading bottom">
+                    <a href="img/Abhinav Maurya.pdf" target="_blank" class="btn round">
+                    Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Abhinav Maurya <br>
+                        <b>Age:</b>20
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> abhinavmaurya605@gmail.com <br>
+                        <b>Location:</b> INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="heading white">
+            <h2>My Skills</h2>
+            <p>Technology which i can work with</p>
+            <div class="content">
+                <div class="skillsBx">
+                    <i class="fab fa-html5 fa-10x"></i>
+                    <h3>HTML5</h3>
+                    <p></p>
+                </div>
+                <div class="skillsBx">
+                    <i class="fab fa-css3-alt fa-10x"></i>
+                    <h3>CSS3</h3>
+                    <p></p>
+                </div>
+                <div class="skillsBx">
+                    <i class="fab fa-js fa-10x"></i>
+                    <h3>JavaScript</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="heading">
+            <h2>Latest Project</h2>
+            <p>Showcasing some of my <b>Personal Peroject</b></p>
+        </div>
+        <div class="content">
+            <div class="projectBx">
+                <a href="https://github.com/abno-24/HTML-CSS-Project" target="_blank">
+                    <img src="img/htmlCss.jpg" alt="">
+                    <p>HTML & CSS Project</p>
+                </a>
+            </div>
+            <div class="projectBx">
+                <a href="https://github.com/abno-24/Js-Project" target="_blank">
+                    <img src="img/javascript.jpg" alt="">
+                    <p>JavaScript Project</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/abno-24" target="_blank" class="btn" style="color: #fff;">View All My Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytime</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+                    <div class="contactInfoBx">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <address>1, Fatimabai Chawl, <br>
+                                    Marol Pipe Line,<br>Andheri East,Mumbai 400059
+                                </address>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Phone No :</h3>
+                                <p>915xxxx667</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Email Address</h3>
+                                <p>abhinavmaurya605@gmail.com</p>
+                            </div>
+                        </div>
+                        <br>
+                        <h3>Social Connect</h3>
+                        <div class="boxSocial">
+                            <div class="icon">
+                                <a href="https://github.com/abno-24" target="_blank">
+                                    <i class="fab fa-github-square"></i>
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/abhinav-maurya-968457199/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="https://twitter.com/abno_24" target="_blank">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" rows="6" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <p>&copy; 2021, Personal Portfolio, All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js" integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4=" crossorigin="anonymous"></script>
+</body>
+</html>
